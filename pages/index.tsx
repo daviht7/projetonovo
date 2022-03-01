@@ -5,6 +5,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <VideoCard name={"tesouro perdido"} description="descrição do filme"/>
+    <>
+      <VideoCard name={"tesouro perdido"} description="descrição do filme" />
+      <h1>OK!!</h1>
+    </>
+
   )
 }
